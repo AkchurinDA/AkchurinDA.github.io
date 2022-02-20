@@ -73,12 +73,16 @@ analytics:
 author:
   name: "Damir Akchurin"
   avatar: "profile.png"
-  bio: "Your biography for the left-hand sidebar"
-  location: "Location"
+  bio: "
+My name is Damir Akchurin. I’m an international student from Astana, Kazakhstan.
+I am now pursuing a Master's degree in Civil Engineering at Johns Hopkins University. In 2017, I obtained my Bachelor's degree in Civil Engineering from SUNY Polytechnic Institute.
+My current research focuses on shape optimization of cold-formed steel sections while taking into account reduced strength and stiffness due to cross-sectional instabilities caused by geometric and material imperfections. My earlier research focused on the investigation the effects of perforations on the buckling behavior of cold-formed steel members.
+In my free time, I enjoy working on various coding projects, read interesting books, and play tennis."
+  location: "Baltimore, MD"
   employer:
   pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "http://yourfullgooglescholarurl.com"
-  email:
+  email: "AkchurinDA@gmail.com"
   researchgate: "https://www.researchgate.net/profile/Damir-Akchurin"
   uri:
   bitbucket:
@@ -87,11 +91,11 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "academicpages"
+  github: "AkchurinDA"
   google_plus:
   keybase:
   instagram:
-  impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory:
   lastfm:
   linkedin:
   orcid:
