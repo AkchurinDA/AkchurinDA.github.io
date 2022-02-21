@@ -1,1 +1,1 @@
-# AkchurinDA.github.io
+Personal website of Damir Akchurin.
