@@ -6,10 +6,6 @@ body {
   font-family: "Dosis";
 }
 
-a {
-  text-decoration: none;
-}
-
 /* Navigation bar */
 .NavigationBar {
   font-size: 12px;
@@ -20,26 +16,85 @@ a {
 
 .NavigationBar a {
   color: #777;
+  text-decoration: none;
   /* Fade out */
-  -webkit-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  -moz-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  -o-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  -ms-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -moz-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -o-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -ms-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
 }
 
 .NavigationBar a.active {
   color: #000;
+  text-decoration: none;
 }
 
 .NavigationBar a:hover {
   color: #000;
+  text-decoration: none;
   /* Fade in */
-  -webkit-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  -moz-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  -o-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  -ms-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
-  transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -moz-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -o-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -ms-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+}
+
+/* Main */
+.Media img {
+  max-width: 100%;
+  height: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 50%;
+}
+
+.Links {
+  text-align: center;
+}
+
+.Icons {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  /* Fade out */
+  -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -moz-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -o-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -ms-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+}
+
+.Icons:hover {
+  color: black;
+  border-color: black;
+
+  /* Fade in */
+  -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -moz-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -o-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  -ms-transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+}
+
+.Text {
+  font-size: 12px;
+  text-align: justify;
 }
 
 /* Footer */

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Head -->
   <head>
     <title>Damir Akchurin</title>
 
@@ -14,8 +13,14 @@
     <!-- Favicon -->
     <link rel="icon" href="Images/Favicon.png" />
 
-    <!-- CSS -->
+    <!-- Apply CSS -->
     <link rel="stylesheet" href="CSS/Style.css" />
+
+    <!-- Apply Bootstrap (don't tweak) -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+
+    <!-- Apply Font Awesome (don't tweak) -->
+    <link rel="stylesheet" href="CSS/font-awesome.min.css" />
   </head>
   <body>
     <hr />
@@ -31,27 +36,48 @@
     <hr />
 
     <main>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur
-      numquam quia? Nemo eos voluptates dolorum vero harum tempora, labore, quo
-      numquam odio aut dolorem doloremque distinctio sunt ex sit facere debitis
-      blanditiis quos amet commodi adipisci. Quis facilis quo officiis rerum
-      sapiente illum unde! Dolore repellendus repudiandae unde voluptas rem!
-      Quis nisi nemo aspernatur? Ab, cum? Nam, iste et aut voluptate quos
-      numquam quam dignissimos ipsum, expedita eaque in nulla debitis quibusdam
-      perspiciatis cumque inventore laboriosam dicta nihil sint! Placeat
-      accusantium repellendus commodi, odit ad fugit voluptas porro sit, aperiam
-      dolorem ut et nostrum in temporibus eligendi iure eveniet praesentium!
-      Rem, architecto suscipit iste officiis id iure blanditiis incidunt
-      voluptas quisquam fuga debitis veritatis modi, quo quibusdam, et nihil
-      beatae obcaecati. Aliquid molestias, sapiente suscipit velit dolor quam
-      ducimus architecto esse quis illo rerum quia, laborum sit repudiandae
-      vitae nihil veritatis voluptatum inventore nisi ab perspiciatis!
-      Consequatur, sequi? Facilis reprehenderit a eos nobis iusto, ipsa dicta
-      saepe quaerat sunt ipsum sequi qui consectetur nihil cumque voluptate
-      voluptatibus placeat dolores accusantium vero. Maxime necessitatibus
-      impedit nemo, ut soluta animi repellendus vitae nihil quasi quibusdam
-      molestias quis delectus accusamus mollitia, sequi deleniti pariatur vero
-      exercitationem obcaecati aspernatur voluptates vel iure! Necessitatibus.
+      <div class="container relative">
+        <div class="row">
+          <!-- Image -->
+          <div class="col-sm-3">
+            <div class="Media">
+              <img src="Images/Me.png" alt="Picture of Damir" />
+            </div>
+
+            <br />
+
+            <!-- Social links -->
+            <div class="Links">
+              <a target="_blank" href="mailto:AkchurinDA@gmail.com"
+                ><span class="Icons" title="Email"
+                  ><i class="fa fa-envelope"></i></span
+              ></a>
+              <a
+                target="_blank"
+                href="https://scholar.google.com/citations?user=chYaDcIAAAAJ&hl=en"
+                ><span class="Icons" title="Google Scholar"
+                  ><i class="fa fa-graduation-cap"></i></span
+              ></a>
+              <a target="_blank" href="https://twitter.com/AkchurinDA"
+                ><span class="Icons" title="Twitter"
+                  ><i class="fa fa-twitter"></i></span
+              ></a>
+              <a target="_blank" href="https://www.linkedin.com/in/akchurinda/"
+                ><span class="Icons" title="LinkedIn"
+                  ><i class="fa fa-linkedin"></i></span
+              ></a>
+            </div>
+          </div>
+
+          <!-- About me -->
+          <div class="col-sm-9">
+            <div class="Text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum,
+              possimus!
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <hr />
@@ -60,10 +86,7 @@
       <!-- Copyright -->
       <div>
         &copy; Damir Akchurin
-        <!-- Get date -->
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
+        <script src="JS/GetCurrentYear"></script>
       </div>
     </footer>
   </body>
