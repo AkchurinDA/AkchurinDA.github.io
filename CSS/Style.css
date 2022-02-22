@@ -1,0 +1,49 @@
+/* Importing fonts */
+@import url(https://fonts.googleapis.com/css?family=Dosis:400);
+
+/* Commom */
+body {
+  font-family: "Dosis";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation bar */
+.NavigationBar {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.NavigationBar a {
+  color: #777;
+  /* Fade out */
+  -webkit-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -moz-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -o-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -ms-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+}
+
+.NavigationBar a.active {
+  color: #000;
+}
+
+.NavigationBar a:hover {
+  color: #000;
+  /* Fade in */
+  -webkit-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -moz-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -o-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  -ms-transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+  transition: all 0.4s cubic-bezier(0, 0, 0.5, 1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 10px;
+}
