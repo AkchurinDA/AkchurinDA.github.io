@@ -43,7 +43,10 @@ body {
 
 /* Main */
 .Media img {
-  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 140px;
   height: auto;
   border-width: 1px;
   border-style: solid;
@@ -56,11 +59,11 @@ body {
 }
 
 .Icons {
-  width: 20px;
-  height: 20px;
-  line-height: 19px;
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   color: grey;
 
   display: inline-block;
