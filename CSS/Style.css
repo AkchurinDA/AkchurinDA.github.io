@@ -1,11 +1,3 @@
-/* Importing fonts */
-@import url(https://fonts.googleapis.com/css?family=Dosis:400);
-
-/* Commom */
-body {
-  font-family: "Dosis";
-}
-
 /* Navigation bar */
 .NavigationBar {
   font-size: 15px;
