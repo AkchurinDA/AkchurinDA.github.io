@@ -11,13 +11,13 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="images/Me.ico" type="image/x-icon" />
 
-    <!-- BOXICON -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
+    <!-- FAVICON -->
+    <script
+      src="https://kit.fontawesome.com/37dc442ad6.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <!-- Bootstrap -->
+    <!-- BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,32 +32,96 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html"
-            >Home</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="research.html">Research</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacts">Contacts</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- LOGO -->
+        <div class="col-sm-2 border d-flex justify-content-center"></div>
 
-      <br />
+        <!-- SUBDIRECTORIES -->
+        <div class="col-sm-8 border d-flex justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SOCIALS -->
+        <div class="col-sm-2 border">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <a target="_blank" href="mailto:AkchurinDA@gmail.com"
+                ><span class="mn-soc-link tooltip-top" title="EMail"
+                  ><i class="fa fa-envelope" style="color: white"></i></span
+              ></a>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <a
+                target="_blank"
+                href="https://scholar.google.com/citations?user=chYaDcIAAAAJ&hl=en"
+                ><span class="mn-soc-link tooltip-top" title="Google Scholar"
+                  ><i
+                    class="fa fa-graduation-cap"
+                    style="color: white"
+                  ></i></span
+              ></a>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <a target="_blank" href="https://twitter.com/AkchurinDA"
+                ><span class="mn-soc-link tooltip-top" title="Twitter"
+                  ><i class="fa fa-twitter" style="color: white"></i></span
+              ></a>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <a target="_blank" href="https://www.linkedin.com/in/AkchurinDA"
+                ><span class="mn-soc-link tooltip-top" title="LinkedIn"
+                  ><i class="fa fa-linkedin" style="color: white"></i></span
+              ></a>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <a target="_blank" href="https://github.com/AkchurinDA"
+                ><span class="mn-soc-link tooltip-top" title="GitHub"
+                  ><i class="fa fa-github" style="color: white"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
 
+    <br />
+
+    <!-- BODY -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2 d-flex justify-content-center border">Gutter</div>
+        <div class="col-sm-2 d-flex justify-content-center border">
+          <img
+            src="images/me.jpg"
+            class="img-fluid rounded-circle border border-dark"
+            alt="Photo of Damir Akchurin"
+          />
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center border">Bio</div>
+        <div class="col-sm-2 d-flex justify-content-center border">Gutter</div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
     <script src="scripts/main.js"></script>
   </body>
 </html>
