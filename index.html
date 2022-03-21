@@ -25,53 +25,56 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="styles/style.css" />
+    <!-- CSS -->
 
     <!-- TITLE -->
     <title>Damir Akchurin's Personal Website</title>
   </head>
   <body>
     <!-- NAVIGATION -->
-    <nav class="top navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- BRAND -->
-      <a href="#" class="navbar-brand">Damir Akchurin</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- BRAND -->
+        <a href="index.html" class="navbar-brand">Damir Akchurin</a>
 
-      <!-- NAVBAR TOGGLES -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#toggleMobileMenu"
-        aria-controls="toggleMobileMenu"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- NAVBAR TOGGLE BUTTON -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#BurgerMenu"
+          aria-controls="BurgerMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="toggleMobileMenu">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="research.html">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="talks.html">Talks</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contacts</a>
-          </li>
-        </ul>
+        <!-- NAVBAR ITEMS -->
+        <div class="collapse navbar-collapse" id="BurgerMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="talks.html">Talks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -199,17 +202,6 @@
               </div>
             </div>
           </div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum,
-          officiis. Rerum quae ullam optio possimus voluptatum! Totam odio
-          deleniti possimus libero perspiciatis asperiores modi laborum quisquam
-          culpa, labore id dicta dolorem aliquid saepe beatae maiores similique
-          maxime earum eum vel corrupti quam quae? Maiores laudantium asperiores
-          facere cumque neque, eaque iste odit corrupti fuga possimus sint amet
-          et repudiandae facilis provident id delectus at quibusdam
-          perspiciatis! Eos fuga minus velit nobis placeat voluptatibus ab nemo
-          ratione rerum, alias culpa earum perferendis odio necessitatibus
-          pariatur dicta error odit veniam aspernatur laudantium tempora sint
-          eius delectus? Vel totam corrupti dolor voluptas saepe?
         </div>
 
         <!-- GUTTER -->
@@ -225,6 +217,11 @@
     </footer>
 
     <!-- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
