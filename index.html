@@ -26,193 +26,184 @@
     />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
 
     <!-- TITLE -->
     <title>Damir Akchurin's Personal Website</title>
   </head>
   <body>
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <!-- BRAND -->
-        <a href="index.html" class="navbar-brand">Damir Akchurin</a>
+    <header>
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- BRAND -->
+          <a href="index.html" class="navbar-brand">Damir Akchurin</a>
 
-        <!-- NAVBAR TOGGLE BUTTON -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#BurgerMenu"
-          aria-controls="BurgerMenu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <!-- NAVBAR TOGGLE BUTTON -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#BurgerMenu"
+            aria-controls="BurgerMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- NAVBAR ITEMS -->
-        <div class="collapse navbar-collapse" id="BurgerMenu">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="talks.html">Talks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- BODY -->
-    <div class="container-fluid border">
-      <div class="row">
-        <!-- GUTTER -->
-        <div class="col-sm-2"></div>
-
-        <!-- PICTURE -->
-        <div class="col-sm-2 py-5 px-5 border">
-          <div class="text-center">
-            <img
-              src="images/me.png"
-              class="img-fluid rounded-circle border border-dark"
-              alt="Photo of Damir Akchurin"
-            />
-          </div>
-          <br />
-          <div class="text-center">
-            <h4>Damir Akchurin</h4>
-            <p>
-              PhD student
-              <br />
-              <a
-                target="_blank"
-                href="https://engineering.jhu.edu/case/"
-                class="text-decoration-none link-success"
-                >Civil and Systems Engineering</a
-              >
-              <br />
-              <a
-                target="_blank"
-                href="https://www.jhu.edu"
-                class="text-decoration-none link-success"
-                >Johns Hopkins University</a
-              >
-            </p>
+          <!-- NAVBAR ITEMS -->
+          <div class="collapse navbar-collapse" id="BurgerMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="research.html">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publications.html">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="talks.html">Talks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+    </header>
 
-        <!-- BIO -->
-        <div class="col-sm-6 py-5 px-5 border">
-          <div>
-            <h4>About me</h4>
-            <p>
-              My name is Damir Akchurin. I’m a PhD student at the Civil and
-              Systems Engineering department of the Johns Hopkins University in
-              Baltimore, MD.
-            </p>
-            <p>
-              My current research focuses on the development of an optimization
-              scheme that produces a family of optimized cold-formed steel
-              lipped channel sections considering reduced stiffness and strength
-              due to cross-sectional instabilities such as local and distortion
-              buckling. My earlier research focused on the investigation the
-              effects of perforations on the buckling behavior of cold-formed
-              steel members.
-            </p>
-            <p>
-              In my free time, I enjoy working on various coding projects, read
-              interesting books, and play tennis.
-            </p>
-          </div>
-          <div class="row">
-            <!-- INTERESTS -->
-            <div class="col p-3">
-              <h5>Interests</h5>
-              <ul>
-                <li>Structural Analysis and Design</li>
-                <li>Thin-Walled Structures</li>
-                <li>Advanced High-Strength Steel</li>
-                <li>Cold-Formed Steel</li>
-                <li>Soil-Structure Interaction</li>
-              </ul>
+    <main>
+      <!-- CONTENT -->
+      <div class="container-fluid border">
+        <div class="row">
+          <!-- GUTTER -->
+          <div class="col-sm-2"></div>
+
+          <!-- PICTURE -->
+          <div class="col-sm-2 pt-5 px-0 border">
+            <div class="text-center">
+              <img
+                src="images/me.png"
+                class="img-fluid rounded-circle border border-dark"
+                alt="Photo of Damir Akchurin"
+              />
             </div>
+            <br />
+            <div class="text-center">
+              <h5>Damir Akchurin</h5>
+              <p>
+                PhD student
+                <br />
+                <a
+                  target="_blank"
+                  href="https://engineering.jhu.edu/case/"
+                  class="text-decoration-none link-success"
+                  >Civil and Systems Engineering</a
+                >
+                <br />
+                <a
+                  target="_blank"
+                  href="https://www.jhu.edu"
+                  class="text-decoration-none link-success"
+                  >Johns Hopkins University</a
+                >
+              </p>
+            </div>
+          </div>
 
-            <!-- EDUCATION -->
-            <div class="col p-3">
-              <h5>Education</h5>
-              <div class="row">
-                <!-- ICON -->
-                <div class="col-sm-2 my-auto text-center">
-                  <i class="fa fa-graduation-cap" style="color: dark"></i>
-                </div>
-
-                <!-- ENTRY -->
-                <div class="col-sm-10">
-                  <p>
-                    <b>PhD, Civil Engineering</b>
-                    <br />
-                    <i>Johns Hopkins University</i>
-                  </p>
-                </div>
+          <!-- BIO -->
+          <div class="col-sm-7 py-5 px-5 border">
+            <div>
+              <h4>About me</h4>
+              <p>
+                My name is Damir Akchurin. I’m a PhD student at the Civil and
+                Systems Engineering department of the Johns Hopkins University
+                in Baltimore, MD.
+              </p>
+              <p>
+                My current research focuses on the development of an
+                optimization scheme that produces a family of optimized
+                cold-formed steel lipped channel sections considering reduced
+                stiffness and strength due to cross-sectional instabilities such
+                as local and distortion buckling. My earlier research focused on
+                the investigation the effects of perforations on the buckling
+                behavior of cold-formed steel members.
+              </p>
+              <p>
+                In my free time, I enjoy working on various coding projects,
+                read interesting books, and play tennis.
+              </p>
+            </div>
+            <div class="row">
+              <!-- INTERESTS -->
+              <div class="col-lg">
+                <h5>Interests</h5>
+                <ul>
+                  <li>Structural Analysis and Design</li>
+                  <li>Thin-Walled Structures</li>
+                  <li>Advanced High-Strength Steel</li>
+                  <li>Cold-Formed Steel</li>
+                  <li>Soil-Structure Interaction</li>
+                </ul>
               </div>
-              <div class="row">
-                <!-- ICON -->
-                <div class="col-sm-2 my-auto text-center">
-                  <i class="fa fa-graduation-cap" style="color: dark"></i>
-                </div>
 
-                <!-- ENTRY -->
-                <div class="col-sm-10">
-                  <p>
-                    <b>MSE, Civil Engineering</b>
-                    <br />
-                    <i>Johns Hopkins University</i>
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <!-- ICON -->
-                <div class="col-sm-2 my-auto text-center">
-                  <i class="fa fa-graduation-cap" style="color: dark"></i>
-                </div>
+              <!-- EDUCATION -->
+              <div class="col-lg">
+                <h5>Education</h5>
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"
+                      ><i class="fa fa-graduation-cap fa-fw"></i></span
+                    ><b>PhD, Civil Engineering</b>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-blank fa-fw"></i></span
+                    ><i class="small">Johns Hopkins University</i>
+                  </li>
 
-                <!-- ENTRY -->
-                <div class="col-sm-10">
-                  <p>
-                    <b>BS, Civil Engineering</b>
-                    <br />
-                    <i>State University of New York Polytechnic Institute</i>
-                  </p>
-                </div>
+                  <li>
+                    <span class="fa-li"
+                      ><i class="fa fa-graduation-cap fa-fw"></i></span
+                    ><b>MSE, Civil Engineering</b>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-blank fa-fw"></i></span
+                    ><i class="small">Johns Hopkins University</i>
+                  </li>
+
+                  <li>
+                    <span class="fa-li"
+                      ><i class="fa fa-graduation-cap fa-fw"></i></span
+                    ><b>BS, Civil Engineering</b>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fa fa-blank fa-fw"></i></span
+                    ><i class="small">SUNY Polytechnic Institute</i>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- GUTTER -->
-        <div class="col-sm-2"></div>
+          <!-- GUTTER -->
+          <div class="col-sm-1"></div>
+        </div>
       </div>
-    </div>
+    </main>
 
     <!-- FOOTER -->
     <footer class="py-3 bg-dark">
       <div class="small text-center text-white">
-        Damir Akchurin © <span id="Year"></span>
+        Damir Akchurin &copy; <span id="Year"></span>
       </div>
     </footer>
 
