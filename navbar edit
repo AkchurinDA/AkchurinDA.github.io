@@ -1,0 +1,95 @@
+<nav class="top navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- BUTTON -->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navCollapse"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="container-fluid">
+    <!-- COLLAPSE IF SMALL, EXPAND OTHERWISE-->
+    <div class="collapse navbar-collapse" id="navCollapse">
+      <!-- LOGO -->
+      <div class="col-sm-2 d-flex justify-content-center"></div>
+
+      <!-- SUBDIRECTORIES -->
+      <div class="col-sm-8 text-uppercase d-flex justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="talks.html">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SOCIALS -->
+      <div class="col-sm-2 d-flex justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="mailto:AkchurinDA@gmail.com"
+              ><span class="mn-soc-link tooltip-top" title="EMail"
+                ><i class="fa fa-envelope" style="color: white"></i></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://scholar.google.com/citations?user=chYaDcIAAAAJ&hl=en"
+              ><span class="mn-soc-link tooltip-top" title="Google Scholar"
+                ><i class="fa fa-graduation-cap" style="color: white"></i></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://twitter.com/AkchurinDA"
+              ><span class="mn-soc-link tooltip-top" title="Twitter"
+                ><i class="fa fa-twitter" style="color: white"></i></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://www.linkedin.com/in/AkchurinDA"
+              ><span class="mn-soc-link tooltip-top" title="LinkedIn"
+                ><i class="fa fa-linkedin" style="color: white"></i></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://github.com/AkchurinDA"
+              ><span class="mn-soc-link tooltip-top" title="GitHub"
+                ><i class="fa fa-github" style="color: white"></i></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

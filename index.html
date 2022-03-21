@@ -32,99 +32,57 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <!-- LOGO -->
-        <div class="col-sm-2 d-flex justify-content-center"></div>
+    <nav class="top navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- BRAND -->
+      <a href="#" class="navbar-brand">Damir Akchurin</a>
 
-        <!-- SUBDIRECTORIES -->
-        <div class="col-sm-8 d-flex justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacts">Contacts</a>
-            </li>
-          </ul>
-        </div>
+      <!-- NAVBAR TOGGLES -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- SOCIALS -->
-        <div class="col-sm-2 d-flex justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="mailto:AkchurinDA@gmail.com"
-                ><span class="mn-soc-link tooltip-top" title="EMail"
-                  ><i class="fa fa-envelope" style="color: white"></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://scholar.google.com/citations?user=chYaDcIAAAAJ&hl=en"
-                ><span class="mn-soc-link tooltip-top" title="Google Scholar"
-                  ><i
-                    class="fa fa-graduation-cap"
-                    style="color: white"
-                  ></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://twitter.com/AkchurinDA"
-                ><span class="mn-soc-link tooltip-top" title="Twitter"
-                  ><i class="fa fa-twitter" style="color: white"></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://www.linkedin.com/in/AkchurinDA"
-                ><span class="mn-soc-link tooltip-top" title="LinkedIn"
-                  ><i class="fa fa-linkedin" style="color: white"></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://github.com/AkchurinDA"
-                ><span class="mn-soc-link tooltip-top" title="GitHub"
-                  ><i class="fa fa-github" style="color: white"></i></span
-              ></a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="talks.html">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
       </div>
     </nav>
-    <br />
 
     <!-- BODY -->
-    <div class="container-fluid">
+    <div class="container-fluid border">
       <div class="row">
         <!-- GUTTER -->
         <div class="col-sm-2"></div>
 
         <!-- PICTURE -->
-        <div class="col-sm-2 p-5 border">
+        <div class="col-sm-2 py-5 px-5 border">
           <div class="text-center">
             <img
               src="images/me.png"
@@ -136,37 +94,122 @@
           <div class="text-center">
             <h4>Damir Akchurin</h4>
             <p>
-              PhD student <br />
-              Civil and Systems Engineering <br />
-              Johns Hopkins University
+              PhD student
+              <br />
+              <a
+                target="_blank"
+                href="https://engineering.jhu.edu/case/"
+                class="text-decoration-none link-success"
+                >Civil and Systems Engineering</a
+              >
+              <br />
+              <a
+                target="_blank"
+                href="https://www.jhu.edu"
+                class="text-decoration-none link-success"
+                >Johns Hopkins University</a
+              >
             </p>
           </div>
         </div>
 
         <!-- BIO -->
-        <div class="col-sm-6 p-5 border justify-content-start">
-          <h3>Welcome!</h3>
-          <p>
-            My name is Damir Akchurin. I’m an international student from Astana,
-            Kazakhstan.
-          </p>
-          <p>
-            I am currently pursuing a Master's degree in Civil Engineering at
-            Johns Hopkins University. In 2017, I obtained my Bachelor's degree
-            in Civil Engineering from SUNY Polytechnic Institute.
-          </p>
-          <p>
-            My current research focuses on shape optimization of cold-formed
-            steel sections while taking into account reduced strength and
-            stiffness due to cross-sectional instabilities such as local and
-            distortional buckling. My earlier research focused on the
-            investigation the effects of perforations on the buckling behavior
-            of cold-formed steel members.
-          </p>
-          <p>
-            In my free time, I enjoy working on various coding projects, read
-            interesting books, and play tennis.
-          </p>
+        <div class="col-sm-6 py-5 px-5 border">
+          <div>
+            <h4>About me</h4>
+            <p>
+              My name is Damir Akchurin. I’m a PhD student at the Civil and
+              Systems Engineering department of the Johns Hopkins University in
+              Baltimore, MD.
+            </p>
+            <p>
+              My current research focuses on the development of an optimization
+              scheme that produces a family of optimized cold-formed steel
+              lipped channel sections considering reduced stiffness and strength
+              due to cross-sectional instabilities such as local and distortion
+              buckling. My earlier research focused on the investigation the
+              effects of perforations on the buckling behavior of cold-formed
+              steel members.
+            </p>
+            <p>
+              In my free time, I enjoy working on various coding projects, read
+              interesting books, and play tennis.
+            </p>
+          </div>
+          <div class="row">
+            <!-- INTERESTS -->
+            <div class="col p-3">
+              <h5>Interests</h5>
+              <ul>
+                <li>Structural Analysis and Design</li>
+                <li>Thin-Walled Structures</li>
+                <li>Advanced High-Strength Steel</li>
+                <li>Cold-Formed Steel</li>
+                <li>Soil-Structure Interaction</li>
+              </ul>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="col p-3">
+              <h5>Education</h5>
+              <div class="row">
+                <!-- ICON -->
+                <div class="col-sm-2 my-auto text-center">
+                  <i class="fa fa-graduation-cap" style="color: dark"></i>
+                </div>
+
+                <!-- ENTRY -->
+                <div class="col-sm-10">
+                  <p>
+                    <b>PhD, Civil Engineering</b>
+                    <br />
+                    <i>Johns Hopkins University</i>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <!-- ICON -->
+                <div class="col-sm-2 my-auto text-center">
+                  <i class="fa fa-graduation-cap" style="color: dark"></i>
+                </div>
+
+                <!-- ENTRY -->
+                <div class="col-sm-10">
+                  <p>
+                    <b>MSE, Civil Engineering</b>
+                    <br />
+                    <i>Johns Hopkins University</i>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <!-- ICON -->
+                <div class="col-sm-2 my-auto text-center">
+                  <i class="fa fa-graduation-cap" style="color: dark"></i>
+                </div>
+
+                <!-- ENTRY -->
+                <div class="col-sm-10">
+                  <p>
+                    <b>BS, Civil Engineering</b>
+                    <br />
+                    <i>State University of New York Polytechnic Institute</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum,
+          officiis. Rerum quae ullam optio possimus voluptatum! Totam odio
+          deleniti possimus libero perspiciatis asperiores modi laborum quisquam
+          culpa, labore id dicta dolorem aliquid saepe beatae maiores similique
+          maxime earum eum vel corrupti quam quae? Maiores laudantium asperiores
+          facere cumque neque, eaque iste odit corrupti fuga possimus sint amet
+          et repudiandae facilis provident id delectus at quibusdam
+          perspiciatis! Eos fuga minus velit nobis placeat voluptatibus ab nemo
+          ratione rerum, alias culpa earum perferendis odio necessitatibus
+          pariatur dicta error odit veniam aspernatur laudantium tempora sint
+          eius delectus? Vel totam corrupti dolor voluptas saepe?
         </div>
 
         <!-- GUTTER -->
@@ -175,6 +218,13 @@
     </div>
 
     <!-- FOOTER -->
+    <footer class="py-3 bg-dark">
+      <div class="small text-center text-white">
+        Damir Akchurin © <span id="Year"></span>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
     <script src="scripts/main.js"></script>
   </body>
 </html>
