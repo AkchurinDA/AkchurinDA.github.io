@@ -12,6 +12,13 @@ footer {
   margin-top: auto;
 }
 
+.social-links {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 .small-text {
   font-size: 0.75rem;
 }
