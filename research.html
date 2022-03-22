@@ -25,118 +25,222 @@
       crossorigin="anonymous"
     />
 
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/style.css" />
 
     <!-- TITLE -->
     <title>Damir Akchurin's Personal Website</title>
   </head>
   <body>
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header>
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- BRAND -->
+          <a href="index.html" class="navbar-brand">Damir Akchurin</a>
+
+          <!-- NAVBAR TOGGLE BUTTON -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#BurgerMenu"
+            aria-controls="BurgerMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- NAVBAR ITEMS -->
+          <div class="collapse navbar-collapse" id="BurgerMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="research.html"
+                  >Research</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publications.html">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="talks.html">Talks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- CONTENT -->
       <div class="container-fluid">
-        <!-- LOGO -->
-        <div class="col-sm-2 d-flex justify-content-center"></div>
+        <div class="row pt-5">
+          <!-- GUTTER -->
+          <div class="col-md-2"></div>
 
-        <!-- SUBDIRECTORIES -->
-        <div class="col-sm-8 text-uppercase d-flex justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="research.html"
-                >Research</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="talks.html">Talks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Contacts</a>
-            </li>
-          </ul>
-        </div>
+          <!-- CARDS -->
+          <div class="col-md-8 pt-1 border border-dark">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Effects of rocking coefficient and critical contact area
+                    ratio on the performance of rocking foundations from
+                    centrifuge and shake table experimental results
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <b>Abstract</b>
+                      <br />
+                      The major objective of this study is to correlate rocking
+                      foundation performance parameters with their capacity
+                      parameters and earthquake demand parameters using results
+                      obtained from 142 centrifuge and shaking table
+                      experiments, which include a variety of soil conditions,
+                      foundation geometries, structural models, and types of
+                      ground motions. The analysis presented in this paper
+                      considers all experimental results together, collectively
+                      as big data, through nondimensional parameters to identify
+                      hidden relationships among different parameters in a
+                      capacity-demand-performance framework. Rocking system
+                      performance parameters such as seismic energy dissipation
+                      in soil, permanent settlement, peak and permanent
+                      rotation, tipping-over stability ratio, self-centering
+                      ratio, rocking moment capacity, and acceleration
+                      amplification ratio are correlated with rocking system
+                      capacity parameters such as critical contact area ratio,
+                      rocking coefficient, and slenderness ratio of rocking
+                      systems and the earthquake demand parameters such as Arias
+                      intensity and peak ground acceleration of earthquake. It
+                      is found that energy dissipation and settlement correlate
+                      reasonably well with rocking coefficient and Arias
+                      intensity of earthquake, while peak rotation and
+                      acceleration amplification ratio correlate reasonably well
+                      with slenderness ratio, rocking coefficient, and peak
+                      ground acceleration of earthquake. Rocking foundations in
+                      clayey soils show superior performance in terms of seismic
+                      energy dissipation and permanent settlement compared to
+                      those in sandy soils, especially for relatively small to
+                      medium intensity shakings, and the ability of rocking
+                      foundations to de-amplify the earthquake motion increases
+                      as the magnitude of shaking increases.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <!-- SOCIALS -->
-        <div class="col-sm-2 d-flex justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="mailto:AkchurinDA@gmail.com"
-                ><span class="mn-soc-link tooltip-top" title="EMail"
-                  ><i class="fa fa-envelope" style="color: white"></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://scholar.google.com/citations?user=chYaDcIAAAAJ&hl=en"
-                ><span class="mn-soc-link tooltip-top" title="Google Scholar"
-                  ><i
-                    class="fa fa-graduation-cap"
-                    style="color: white"
-                  ></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://twitter.com/AkchurinDA"
-                ><span class="mn-soc-link tooltip-top" title="Twitter"
-                  ><i class="fa fa-twitter" style="color: white"></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://www.linkedin.com/in/AkchurinDA"
-                ><span class="mn-soc-link tooltip-top" title="LinkedIn"
-                  ><i class="fa fa-linkedin" style="color: white"></i></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                target="_blank"
-                href="https://github.com/AkchurinDA"
-                ><span class="mn-soc-link tooltip-top" title="GitHub"
-                  ><i class="fa fa-github" style="color: white"></i></span
-              ></a>
-            </li>
-          </ul>
+          <!-- GUTTER -->
+          <div class="col-md-2"></div>
         </div>
       </div>
-    </nav>
-
-    <!-- BODY -->
-    <div class="container-fluid">
-      <div class="row">
-        <!-- GUTTER -->
-        <div class="col-sm-2"></div>
-
-        <!-- ENTRIES -->
-        <div class="col-sm-8 pt-5 px-5 border"></div>
-
-        <!-- GUTTER -->
-        <div class="col-sm-2"></div>
-      </div>
-    </div>
+    </main>
 
     <!-- FOOTER -->
+    <footer class="py-3 bg-dark">
+      <div class="small text-center text-white">
+        Damir Akchurin &copy; <span id="Year"></span>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
