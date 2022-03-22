@@ -24,6 +24,10 @@ footer {
   font-size: 0.75rem;
 }
 
+.profile-img {
+  width: 60%;
+}
+
 .img-header-container {
   position: relative;
   text-align: center;
