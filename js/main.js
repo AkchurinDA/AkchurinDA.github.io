@@ -1,4 +1,4 @@
-// Get current year:
+// GET CURRENT YEAR:
 document.getElementById("Year").innerHTML = new Date().getFullYear();
 
 var footerResize = function() {
