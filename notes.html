@@ -25,13 +25,6 @@
       crossorigin="anonymous"
     />
 
-    <!-- JQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -78,8 +71,8 @@
                 <a
                   class="nav-link active text-success"
                   aria-current="page"
-                  href="blog.html"
-                  >Blog</a
+                  href="notes.html"
+                  >Notes</a
                 >
               </li>
             </ul>
@@ -95,12 +88,12 @@
           <div class="col p-0">
             <div class="img-header-container border-bottom">
               <img
-                src="images/blog.jpg"
+                src="images/notes.jpg"
                 class="img-header border-bottom"
-                alt="blog"
+                alt="notes"
               />
               <p class="text-over-img-header fs-2 text-uppercase text-light">
-                Blog
+                Notes
               </p>
             </div>
           </div>
@@ -111,15 +104,47 @@
           <!-- GUTTER -->
           <div class="col-md-2"></div>
 
-          <!-- POSTS -->
+          <!-- NOTES -->
           <div class="col-md-8 py-5">
             <div class="callout">
+              <h5>Summary</h5>
+              <p>
+                I strongly believe that education must be accessible to anyone,
+                anywhere, anytime. For this reason, I will share all of the
+                notes I take for my research and courses here for free. Current
+                notes include topics such as:
+              </p>
+              <ul class="fa-ul">
+                <li>
+                  <span class="fa-li"
+                    ><i class="fa-solid fa-caret-right"></i></span
+                  ><a href="#global-buckling" class="text-decoration-none link-success">Global buckling</a>
+                </li>
+                <li>
+                  <span class="fa-li"
+                    ><i class="fa-solid fa-caret-right"></i></span
+                  ><a href="#local-buckling" class="text-decoration-none link-success">Local buckling</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="callout" id="global-buckling">
+              <h5>Global buckling</h5>
+              <div class="text-center">
+                <p>In progress...</p>
+                <p><i class="fa fa-cog fa-spin fa-lg"></i></p>
+              </div>
+            </div>
+
+            <div class="callout" id="local-buckling">
+              <h5>Local buckling</h5>
               <div class="text-center">
                 <p>In progress...</p>
                 <p><i class="fa fa-cog fa-spin fa-lg"></i></p>
               </div>
             </div>
           </div>
+        </div>
 
           <!-- GUTTER -->
           <div class="col-md-2"></div>
@@ -133,7 +158,6 @@
         <p class="text-center">
           Damir Akchurin &copy; 2022 - <span id="Year"></span>
         </p>
-        <p class="text-end">Powered by ridiculous amounts of caffeine</p>
       </div>
     </footer>
 
