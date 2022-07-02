@@ -1,6 +1,7 @@
 html {
   width: 100%;
   height: 100%;
+  font-family: 'Gill Sans' !important;
 }
 
 body {
@@ -50,5 +51,5 @@ footer {
   padding: 1rem 1rem 0 1rem;
   margin-bottom: 1rem;
   border: 1px solid #868e96; /* Secondary */
-  border-left: 5px solid #198754; /* Success */
+  border-left: 5px solid #0D6EFD; /* Success */
   border-radius: 5px;}
